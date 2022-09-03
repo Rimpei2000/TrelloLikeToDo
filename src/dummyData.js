@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 
-dummyData = [
+const dummyData = [
     {
         id: uuidv4(),
         title: "Todo",
