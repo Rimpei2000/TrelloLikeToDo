@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div style={{ padding: "50px" }}>
+      <h1 style={{ marginBottom: "20px" }}>Trello-like TODO App</h1>
     </div>
   );
 }

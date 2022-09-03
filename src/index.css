@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(61, 93, 189);
+    background: linear-gradient(
+      126deg,
+      rgba(61, 93, 189, 1) 0%,
+      rgba(33, 63, 107, 1) 96%
+    );
+    height: 100vh;
+    color: #e4e4e4;
+    line-height: 1.5;
+    font-family: "M PLUS Rounded 1c";
+  }
+  
+  .trello {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .trello-section {
+    width: 400px;
+    /* border: 1px solid white; */
+    background: rgb(30, 25, 31);
+    background: linear-gradient(
+      126deg,
+      rgba(30, 25, 31, 1) 0%,
+      rgba(51, 45, 54, 1) 96%
+    );
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .trello-section-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 10px 0 20px;
+  }
+  
+  .card {
+    padding: 30px;
+    background: rgb(145, 137, 145);
+    background: linear-gradient(126deg, rgb(79, 73, 79) 0%, rgb(68, 64, 69) 96%);
+    border-radius: 10px;
+    margin-top: 10px;
+  }
